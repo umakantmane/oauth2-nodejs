@@ -10,7 +10,8 @@ steps to use oauth2 server
     Make POST request with username, password and grant_type.
  
 1. localhost:8080/oauth/token
-   => Requested method must be POST
+
+   => Method must be POST with application/x-www-form-urlencoded encoding
 
    => required parameters 
 	a.username
